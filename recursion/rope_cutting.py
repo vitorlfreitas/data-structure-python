@@ -35,26 +35,29 @@ def cutting_rope(n, a, b, c):
 
 
 # Example usage:
-n = 5
-a = 2
-b = 5
-c = 1
+rope_length = 5
+cut_length_a = 2
+cut_length_b = 5
+cut_length_c = 1
 
-print(cutting_rope(n, a, b, c))  # Output: 5
+print(cutting_rope(rope_length, cut_length_a,
+      cut_length_b, cut_length_c))  # Output: 5
 
-n = 23
-a = 12
-b = 9
-c = 11
+rope_length = 23
+cut_length_a = 12
+cut_length_b = 9
+cut_length_c = 11
 
-print(cutting_rope(n, a, b, c))  # Output: 2
+print(cutting_rope(rope_length, cut_length_a,
+      cut_length_b, cut_length_c))  # Output: 2
 
-n = 5
-a = 4
-b = 2
-c = 6
+rope_length = 5
+cut_length_a = 4
+cut_length_b = 2
+cut_length_c = 6
 
-print(cutting_rope(n, a, b, c))  # Output: -1
+print(cutting_rope(rope_length, cut_length_a,
+      cut_length_b, cut_length_c))  # Output: -1
 
 # Time Complexity: O(3^n)
 # Space Complexity: O(n)
